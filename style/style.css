@@ -10,46 +10,174 @@ a{
     color: black;
 }
 .header{
+margin-top: 10px;
+    border-bottom: 1px solid #adb5bd;
 
 }
 .header-nav{
 display: flex;
 justify-content: space-between;
 align-items: center;
+padding: 10px;
+    width: 100%;
+}
+.header-nav  .menu-drop{
+    display: none;
+}
+.header-nav  .menu-drop img{
+    display: none;
 }
 .header-nav .logo{
-
+cursor: pointer;
 }
 .header-nav .logo a{
-    color: blue;
-    font-size: 20px;
+    color: #1515d7;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+
 }
 .header-nav .search{
 display: flex;
 align-items: center;
 justify-content: space-between;
+    width: 40%;
+    height: 45px;
+    background-color: #e5e5e8;
+    padding: 10px;
+    border-radius: 8px;
+}
+.header-nav .search .input-text{
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: #e5e5e8;
+    color: #eeeeee;
+    font-size: 13px;
 }
 .header-nav .search img{
     width: 20px;
 }
 .header-nav .shoping-login{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 .header-nav .shoping-login .login{
     display: flex;
+    margin-right: 12px;
+}
+.header-nav .shoping-login .login a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
 }
 .header-nav .shoping-login .login img{
     width: 20px;
-    
+    height: 20px;
+    margin-left: 12px;
 }
-
 .header-nav .shoping-login .shop{
-
+position: relative;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.header-nav .shoping-login .shop span{
+    position: absolute;
+    background: blue;
+    padding: 3px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+   left: 14px;
+    top: -5px;
 }
 .header-nav .shoping-login .shop img{
-    width: 20px;
+    width: 25px;
+}
+.responsive-model{
+    display: none;
 }
 
+@media (max-width: 576px) {
+    .header-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-nav  .menu-drop{
+        display: block;
+        cursor: pointer;
+    }
+    .header-nav .menu-drop img{
+        width: 50px;
+        display: block;
+    }
+    .header-nav .search{
+        display: none;
+
+    }
+    .header-nav .shoping-login .login{
+        display: none;
+
+    }
+    .responsive-model{
+        display: flex;
+justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border-bottom: 1px solid #adb5bd;
+    }
+    .responsive-model .search{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 72%;
+        height: 40px;
+        background-color: #e5e5e8;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    .responsive-model .search .input-text{
+        outline: none;
+        border: none;
+        width: 100px;
+        background-color: #e5e5e8;
+        color: black;
+        font-size: 13px;
+    }
+    .responsive-model .search img{
+        width: 20px;
+    }
+
+
+    .responsive-model  .login{
+        display: flex;
+        margin-right: 12px;
+    }
+    .responsive-model  .login a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+    .responsive-model .login img{
+        width: 20px;
+        height: 20px;
+        margin-left: 12px;
+    }
+
+}
 
 
 
