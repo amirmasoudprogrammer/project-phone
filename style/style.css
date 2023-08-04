@@ -131,17 +131,18 @@ display: flex;
 .menu-page .ul-menu .menu-list{
     background: blue;
     direction: ltr;
-    padding: 5px;
+    padding:9px 18px;
     border-radius: 10px;
     font-weight: 100;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:center;
+
 }
 .menu-page .ul-menu .menu-list a{
 text-decoration: none;
     color: white;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 13px;
 }
 .menu-page .ul-menu .menu-list img{
