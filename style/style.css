@@ -1,3 +1,7 @@
+body{
+    font-family: "iranyekanwebregular",Arial , Helvetica , sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,8 +15,8 @@ a{
 }
 .header{
 margin-top: 10px;
-    border-bottom: 1px solid #adb5bd;
-
+    border-bottom: 1px solid #eeeeee;
+    font-family: "iranyekanwebregular",Arial;
 }
 .header-nav{
 display: flex;
@@ -52,8 +56,9 @@ justify-content: space-between;
     border: none;
     width: 100%;
     background-color: #e5e5e8;
-    color: #eeeeee;
+    color:black;
     font-size: 13px;
+
 }
 .header-nav .search img{
     width: 20px;
@@ -106,7 +111,60 @@ position: relative;
 }
 .responsive-model{
     display: none;
+    font-family: "iranyekanwebregular",Arial;
 }
+
+.menu-page{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    font-family: "iranyekanwebregular",Arial;
+
+}
+.menu-page .ul-menu{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-page .ul-menu .menu-list{
+    background: blue;
+    direction: ltr;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-page .ul-menu .menu-list a{
+text-decoration: none;
+    color: white;
+    font-weight: 100;
+    font-size: 13px;
+}
+.menu-page .ul-menu .menu-list img{
+width: 30px;
+
+}
+.menu-page .ul-menu li{
+margin-left: 18px;
+    font-size: 13px;
+}
+.menu-page .ul-menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+.text-list-page{
+
+}
+.text-list-page a{
+
+}
+
 
 @media (max-width: 576px) {
     .header-nav{
@@ -179,9 +237,17 @@ justify-content: space-between;
 
 }
 
+/* slider*/
+.section{
 
+}
 
-
+.section .img-slide{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 
 
