@@ -1,0 +1,233 @@
+:root {
+    --color-background: #DCE8FF;
+    --color-background-login: #96B8FA;
+    --color-button: #0D43AA;
+    --color-text: #FFC107;
+    --color-text-2: #000000;
+    --color-name: #FFFFFF;
+
+
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+.header-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+}
+
+.color-bac {
+
+}
+
+.color-bac .img-asli {
+    position: relative;
+
+}
+
+.color-bac .img-asli .img-1 {
+    z-index: 6;
+    position: absolute;
+}
+
+.color-bac .img-asli .img-1 .item-img {
+    position: absolute;
+    top: 10%;
+}
+
+.color-bac .img-asli .img-1 .item-img img {
+    width: 30px;
+}
+
+.color-bac .img-asli .img-1 .item-img img:nth-child(2) {
+    position: absolute;
+    top: 350px;
+    width: 50px;
+    right: 20px;
+}
+
+.color-bac .img-asli .img-1 img {
+    width: 90%;
+}
+
+.color-bac .img-asli .img-2 {
+    position: absolute;
+}
+
+.color-bac .img-asli .img-2 .item-img {
+    position: absolute;
+    top: 6%;
+    z-index: 50;
+    left: 59%;
+}
+
+.color-bac .img-asli .img-2 .item-img img {
+    width: 30px;
+}
+
+.color-bac .img-asli .img-2 .item-img img:nth-child(1) {
+    position: absolute;
+    top: 639px;
+    width: 67px;
+    right: 20px;
+}
+
+.color-bac .img-asli .img-2 img {
+    z-index: 3;
+    width: 90%;
+}
+
+.color-bac .img-asli .img-3 {
+
+}
+
+.color-bac .img-asli .img-3 img {
+    z-index: 1;
+    width: 100%;
+}
+
+.color-bac .img-asli .img-4 {
+    z-index: 10;
+    position: absolute;
+    top: 20%;
+}
+
+.color-bac .img-asli .img-4 img {
+    width: 80%;
+}
+
+
+.login-form {
+    width: 524px;
+    height: 515px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form .forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--color-background-login);
+    height: 500px;
+    width: 400px;
+    border-radius: 34px;
+    box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+.login-form .forms h3 {
+    color: #eeeeee;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.login-form .forms form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-form .forms form .input-user {
+    height: 38px;
+    border-radius: 8px;
+    direction: ltr;
+    padding: 2px;
+    outline: none;
+    border: none;
+    width: 250px;
+    margin: 10px;
+}
+
+.login-form .forms form .input-pass {
+    height: 38px;
+    border-radius: 8px;
+    direction: ltr;
+    padding: 2px;
+    outline: none;
+    border: none;
+    width: 250px;
+    margin: 10px;
+}
+
+.login-form .forms form button {
+    background-color: var(--color-button);
+    color: var(--color-name);
+    width: 250px;
+    height: 38px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.login-form .forms .link-a {
+color: var(--color-text-2);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-form .forms .button-link {
+display: flex;
+
+}
+
+.login-form .forms .button-link .links {
+    width: 120px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: ltr;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-right:15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.login-form .forms .button-link .links .imgs-linke {
+
+}
+
+.login-form .forms .button-link .links .imgs-linke img {
+
+}
+.login-form .forms .button-link .links:nth-child(2) .imgs-linke img{
+    background-color:var(--color-button);
+    padding: 5px;
+    border-radius: 50px;
+}
+.login-form .forms .button-link .links span {
+color:blue;
+}
+
+.login-form .forms .test-hrfe {
+color: var(--color-text-2);
+}
+
+.login-form .forms .test-hrfe a {
+text-decoration: none;
+    color: var(--color-text-2);
+}
+
+.login-form .forms .test-hrfe a strong {
+    color: var(--color-text);
+}
+@media (max-width: 990px) {
+    .color-bac{
+        display: none;
+    }
+    .login-form{
+        margin: 0 auto;
+    }
+}
